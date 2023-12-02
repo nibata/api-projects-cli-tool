@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='project-generator-nibata',
-    version='0.1.0',
+    version='{{VERSION_PLACEHOLDER}}',
     packages=find_packages(),
     package_data={'project_generator': ['templates/*.mako']},
     include_package_data=True,
